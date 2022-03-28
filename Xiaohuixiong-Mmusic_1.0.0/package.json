@@ -1,0 +1,20 @@
+{
+  "name": "Xiaohuixiong-Mmusic_1.0.0",
+  "version": "1.0.0",
+  "description": "#### 介绍 仿网易云音乐，完成了页面功能和音乐播放。 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142622_66737608_5272006.png \"截屏2020-03-12下午2.05.48.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142648_67bcf888_5272006.png \"截屏2020-03-12下午2.05.55.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142702_c83255d9_5272006.png \"截屏2020-03-12下午2.06.11.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142724_c962192f_5272006.png \"截屏2020-03-12下午2.06.20.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142752_91587d1f_5272006.png \"截屏2020-03-12下午2.06.34.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142808_94ab8645_5272006.png \"截屏2020-03-12下午2.06.42.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142914_9fcb8316_5272006.png \"截屏2020-03-12下午2.06.52.png\") ![输入图片说明](https://images.gitee.com/uploads/images/2020/0312/142924_6c087a07_5272006.png \"截屏2020-03-12下午2.21.44.png\")",
+  "main": "main.js",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.2.11",
+    "weapp-qrcode": "^1.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

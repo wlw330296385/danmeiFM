@@ -1,0 +1,23 @@
+{
+    "name": "音乐播放服务插件",
+    "id": "WDMediaPlayer",
+    "version": "0.1.0",
+    "description": "音乐播放服务插件",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "WDMediaPlayer",
+                    "class": "io.dcloud.uniplugin.WDMediaPlayer"
+                }
+            ],
+			"integrateType": "aar",
+			"minSdkVersion" : 16,
+			"dependencies": [  
+			    "com.facebook.fresco:fresco:0.12.0"
+			]
+        }
+    }
+}

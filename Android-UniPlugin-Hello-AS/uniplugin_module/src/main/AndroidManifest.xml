@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="uni.dcloud.io.uniplugin_module">
+
+    <application>
+        <activity android:name="io.dcloud.uniplugin.NativePageActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+
+        <service android:name="io.dcloud.uniplugin.service.PlayerService" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

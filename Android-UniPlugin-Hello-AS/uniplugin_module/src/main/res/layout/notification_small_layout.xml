@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/songlogo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="#EFEFEF"
+            android:padding="0.3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nophoto" />
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:padding="3dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/close" />
+
+
+        <TextView
+            android:id="@+id/songname"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@+id/lastsong"
+            android:layout_toRightOf="@+id/songlogo"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="歌曲名称"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/songer"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/songname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/lastsong"
+            android:layout_toRightOf="@+id/songlogo"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="歌手"
+            android:textColor="#6C6D71"
+            android:textSize="14dp" />
+
+
+        <ImageView
+            android:id="@+id/follow"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/close"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:src="@drawable/follow" />
+
+
+        <ImageView
+            android:id="@+id/nextsong"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/close"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nextsong" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/nextsong"
+            android:scaleType="centerCrop"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/pouse"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/nextsong"
+            android:scaleType="centerCrop"
+            android:visibility="invisible"
+            android:src="@drawable/pause"/>
+
+        <ImageView
+            android:id="@+id/lastsong"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/play"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lastsong" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

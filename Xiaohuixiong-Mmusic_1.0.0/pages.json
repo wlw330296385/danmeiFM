@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/login/register2",
+			"style": {
+				"navigationBarTitleText": "耽听app注册下载"
+			}
+		},
+		{
+			"path": "pages/login/getPassword",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		{
+			"path": "pages/play-video/play-anime",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				}
+			}
+		},
+		{
+			"path": "pages/play/play",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "会员登陆",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#FFF"
+			}
+		},
+		{
+			"path": "pages/play-video/play-video",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/user-info",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+            "path" : "pages/index/vip-buy",
+            "style" : {
+				"navigationBarTitleText": "会员升级",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+            "path" : "pages/user/upload",
+            "style" : {
+                "navigationBarTitleText": "上传作品",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path": "pages/user/qrcode",
+			"style": {
+				"navigationBarTitleText": "分享二维码",
+				"enablePullDownRefresh": false,
+				"backgroundColor":"#fff"
+			}
+		},
+		{
+			"path": "pages/user/inviteruser",
+			"style": {
+				"navigationBarTitleText": "渠道用户管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+            "path" : "pages/login/resetPassword",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "navigationBarTitleText": "重置密码",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "耽听FM",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#fcfcfc"
+	}
+}

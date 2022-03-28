@@ -1,0 +1,105 @@
+<template>
+	<div>
+		<view class="but-box">
+			<button type="primary" class="but" @click="listPlay">ListPlay</button>
+		</view>
+		<view class="but-box">
+			<button type="primary" class="but" @click="play">Play</button>
+		</view>
+	</div>
+</template>
+
+<script>
+	// 获取 module 
+	var testModule = uni.requireNativePlugin("WDMediaPlayer")
+
+	const modal = uni.requireNativePlugin('modal');
+	export default {
+		data() {
+			return {
+				playList: [{
+						id: 1,
+						name: '黄昏',
+						author: '周传雄',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153605.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/obj_wo3DlMOGwrbDjj7DisKw_5001611840_0f3a_1848_675c_20039b77c8dd822ec82c68ae89b6164d.mp3',
+						follow: 0
+					},
+					{
+						id: 2,
+						name: '华为荣耀',
+						author: '',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153703.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/obj_wo3DlMOGwrbDjj7DisKw_5001611840_0f3a_1848_675c_20039b77c8dd822ec82c68aeft5esw9i.mp3',
+						follow: 1
+					},
+					{
+						id: 3,
+						name: '黄昏2',
+						author: '周传雄',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153605.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/obj_wo3DlMOGwrbDjj7DisKw_5001611840_0f3a_1848_675c_20039b77c8dd822ec82c68ae89b6164d.mp3?v=2',
+						follow: 0
+					},
+					{
+						id: 4,
+						name: '华为荣耀2',
+						author: '',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153703.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/obj_wo3DlMOGwrbDjj7DisKw_5001611840_0f3a_1848_675c_20039b77c8dd822ec82c68aeft5esw9i.mp3?v=2',
+						follow: 1
+					},
+					{
+						id: 5,
+						name: '测试音频1',
+						author: '',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153703.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/01.mp3',
+						follow: 0
+					},
+					{
+						id: 6,
+						name: '测试音频2',
+						author: '',
+						description: '',
+						cover: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/QQ20210201153703.jpg',
+						url: 'https://liliangbin.oss-cn-hangzhou.aliyuncs.com/02.mp3',
+						follow: 0
+					}
+				]
+			}
+		},
+		onLoad() {
+			plus.globalEvent.addEventListener('TestEvent', function(e) {
+				modal.toast({
+					message: "TestEvent收到：" + e.msg,
+					duration: 1.5
+				});
+			});
+		},
+		methods: {
+			listPlay() {
+				let currInfo = {
+					currentPosition: 0, 
+					playMode: 1,
+					currentSong: this.playList[0]
+				};
+				testModule.listPlay(this.playList, currInfo, false);
+			},
+			play() {
+				testModule.play();
+			}
+		}
+	}
+</script>
+
+<style lang="scss" scoped>
+	.but-box {
+		margin: 25rpx;
+	}
+</style>
