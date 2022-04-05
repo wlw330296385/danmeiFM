@@ -1,0 +1,16 @@
+{
+  "id": "3302355",
+  "name": "uniapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "我的",
+  "glyphs": [
+    {
+      "icon_id": "11488020",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    }
+  ]
+}

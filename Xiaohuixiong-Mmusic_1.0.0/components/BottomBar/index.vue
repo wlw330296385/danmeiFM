@@ -1,33 +1,34 @@
 <template name="BottomBar">
-	<view class="fixed bottom" style="z-index: 999;">
-		<view class="bottom-left">
-			<image :src="currTrack.cover ? currTrack.cover : '../../static/images/home.png'" class="round" mode="aspectFill" @tap="goPlay"></image>
-			<view class="aideo-info" @tap="goPlay">
-				<view class="audio-name">
-					{{currTrack.name}}
-				</view>
-				<view class="audio-singer">
-					{{currTrack.author ? currTrack.author : (currTrack.description ? currTrack.description : '作者·未知~')}}
-				</view>
+	<view class="uni-flex uni-row">
+		<view class="flex-item">
+			<view class="outer17 flex-col justify-end align-end">
+				<view class="group6 flex-col"></view>
 			</view>
+			<text class="word31">推荐</text>
 		</view>
-		<view class="bottom-right">
-			<view @tap="plaryPrevious" class="margin-right">
-				<text v-if="hasPrevious" class="text-black cuIcon-backwardfill"></text>
-				<text v-else class="text-gray cuIcon-backwardfill"></text>
+		<view class="flex-item">
+			<view class="outer11 flex-col justify-end align-start">
+			<view class="section11 flex-row justify-between">
+				<view class="mod2 flex-col">
+					<image class="icon14" referrerpolicy="no-referrer"
+						src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng747c57dbd2b81b2b3b312a4d64d16f58273076c4374582624ed7d424e575b0c8" />
+				</view>
+				<view class="mod3 flex-col">
+					<image class="img4" referrerpolicy="no-referrer"
+						src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga711b8dac11bfbd23f1acd9b062b555842bbc902a6d00567b4cd26eded055451" />
+					<text class="txt27">窈窕珍馐第一集</text>
+				</view>
 			</view>
-			<view class="btn-player margin-right">
-				<text v-if="!isPlaying" :class="playList.length ? 'text-black' : 'text-gray'" class=" cuIcon-playfill" @tap="doPlay"></text>
-				<text v-else class="text-black cuIcon-stop" @tap="doStop"></text>
-			</view>
-			<view @tap="playNext" class="margin-right">
-				<text v-if="hasNext" class="text-black cuIcon-play_forward_fill"></text>
-				<text v-else class="text-gray cuIcon-play_forward_fill"></text>
-			</view>
-			<view @tap.stop="showPlaylist" class="btn-info">
-				<text class="text-black cuIcon-list"></text>
-			</view>
+			<image class="label11" referrerpolicy="no-referrer"
+				src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng60581bc039befefe91341df04e90479c532051e037349fe8160c84e848b9b951" />
 		</view>
+		</view>
+		<view class="flex-item">
+			<view class="outer18 flex-col"></view>
+			<text class="word32">我的</text>
+		</view>
+		
+		
 		<bottem-play-list ref="playlistModal"></bottem-play-list>
 	</view>
 </template>
@@ -102,5 +103,17 @@
 </script>
 
 <style>
-	@import url("./index.css");
+	
+@import '@/pages/index/common.css';
+@import '@/pages/index/index.rpx.css';
+
+.img3 {
+  z-index: 330;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 714rpx;
+  height: 330rpx;
+}
+
 </style>
