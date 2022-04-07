@@ -28,8 +28,10 @@ export default class HttpRequest {
 			}
 		}
 		const req = (resolve, reject) => {
+			let token = uni.getStorageSync('token');
 			let header = {
 				'Accept': 'application/json, text/plain, */*', 
+				'Authorization' : 'Bearer' + token,
 				...opt.header 
 			};
 			try {
