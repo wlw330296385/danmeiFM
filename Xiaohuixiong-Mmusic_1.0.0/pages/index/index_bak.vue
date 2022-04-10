@@ -28,7 +28,7 @@
 <script>
 	import uniDrawer from '../../components/uni-drawer/uni-drawer.vue'
 	import Header from '../../components/Header/index.vue';
-	import BottomBar from '../../components/BottomBar/index.vue';
+	import BottomBar from '../../components/BottomBar/index_bak.vue';
 	import Drama from '../../components/Drama/index.vue';
 	import Mine from '../../components/Mine/index.vue';
 	import Yuncun from '../../components/Yuncun/index.vue';

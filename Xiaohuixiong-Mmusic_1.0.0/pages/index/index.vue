@@ -2,7 +2,7 @@
 	<view class="page flex-col justify-start">
 			<view class="box1 flex-col">
 				<view class="outer2 flex-col">
-					<view class="section2 flex-row justify-between">
+					<view class="section2 flex-row justify-between" @click="search()">
 						<image class="label2" referrerpolicy="no-referrer"
 							src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng9bdf262cda71a077c46329a1597899266155e9c6e388d62e4859c0dbe2b22b4a" />
 						<view class="input-search">
@@ -42,14 +42,14 @@
 				<view class="mod1 flex-col">
 					<image class="icon4" referrerpolicy="no-referrer"
 					src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng00bb43d03c0d57e6a9475dba23663d67139ccc18461b2a14ddd669c43d9588a3"></image>
-					<text class="txt2">动漫</text>
+					<text class="txt2">我的作品</text>
 				</view>
-				<view class="mod1 flex-col">
+				<view class="mod1 flex-col" @click="later()">
 				<image class="icon4" referrerpolicy="no-referrer"
 					src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngabe9d6bbecf9fdb22144ed8dbe6beaf5e9655b4c6968a0409f0fc04a2bc68bdd"></image>
 				<text class="txt2">漫画</text>
 				</view>
-				<view class="mod1 flex-col">
+				<view class="mod1 flex-col"  @click="later()">
 				<image class="icon4" referrerpolicy="no-referrer"
 					src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng32cdfcd5cda1aef40663ba14d1ef9c8136f06b0c8603465c02d40a57b2066a8b"></image>
 					<text class="txt2">音乐</text>
@@ -224,16 +224,27 @@
 		},
 		methods: {
 			search(){
-				
+				uni.navigateTo({
+					url: '../../pages/search/search'
+				})
+			},
+			later(){
+				uni.showToast({
+					title: '敬请期待',
+					icon: 'none'
+				})
 			}
 		},
 	};
 </script>
-<style>
+<style  lang="scss" scoped>
 	@import './common.css';
 	@import './index.rpx.css';
 	@import "@/static/icon/clock.css";
 	/deep/ .uni-easyinput__content{
 		min-height: 60rpx;
+	}
+	.page{
+		padding-bottom: 150rpx;
 	}
 </style>

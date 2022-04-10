@@ -31,7 +31,6 @@ export default class HttpRequest {
 			let token = uni.getStorageSync('token');
 			let header = {
 				'Accept': 'application/json, text/plain, */*', 
-				'Authorization' : 'Bearer' + token,
 				...opt.header 
 			};
 			try {
@@ -40,7 +39,9 @@ export default class HttpRequest {
 				if (token) {
 					header['Authorization'] = 'Bearer ' + token;
 				}
-			} catch (e) {}
+			} catch (e) {
+				
+			}
 
 			uni.request({
 				url: opt.url,

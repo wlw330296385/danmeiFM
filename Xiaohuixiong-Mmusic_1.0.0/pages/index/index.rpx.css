@@ -218,7 +218,6 @@
 }
 
 .info4 {
-  z-index: 42;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -230,14 +229,12 @@
 }
 
 .label5 {
-  z-index: 43;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
 }
 
 .info5 {
-  z-index: 50;
   width: 36rpx;
   display: block;
   overflow-wrap: break-word;
@@ -249,7 +246,7 @@
 }
 
 .bd3 {
-  z-index: 52;
+  z-indexbak: 52;
   height: 210rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng1f2fffdc4b516bf05b99fbbd32c3cfbf5f35bbdd7b49d8207baae548fa97a368)
     100% no-repeat;
@@ -258,20 +255,20 @@
 }
 
 .section4 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 186rpx;
   height: 28rpx;
 }
 
 .label6 {
-  z-index: 55;
+  z-indexbak: 55;
   width: 14rpx;
   height: 16rpx;
   margin-top: 6rpx;
 }
 
 .txt5 {
-  z-index: 59;
+  z-indexbak: 59;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -283,7 +280,7 @@
 }
 
 .icon6 {
-  z-index: 60;
+  z-indexbak: 60;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
@@ -314,14 +311,14 @@
 }
 
 .icon7 {
-  z-index: 72;
+  z-indexbak: 72;
   width: 14rpx;
   height: 16rpx;
   margin-top: 6rpx;
 }
 
 .txt7 {
-  z-index: 76;
+  z-indexbak: 76;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -333,14 +330,14 @@
 }
 
 .icon8 {
-  z-index: 77;
+  z-indexbak: 77;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
 }
 
 .txt8 {
-  z-index: 84;
+  z-indexbak: 84;
   width: 36rpx;
   display: block;
   overflow-wrap: break-word;
@@ -352,14 +349,14 @@
 }
 
 .box7 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 680rpx;
   height: 34rpx;
   margin: 14rpx 0 0 38rpx;
 }
 
 .txt9 {
-  z-index: 85;
+  z-indexbak: 85;
   /* width: 120rpx; */
   display: block;
   overflow-wrap: break-word;
@@ -370,7 +367,7 @@
 }
 
 .word1 {
-  z-index: 86;
+  z-indexbak: 86;
   display: block;
   overflow-wrap: break-word;
   color: rgba(157, 157, 157, 1.0);
@@ -380,7 +377,7 @@
 }
 
 .word2 {
-  z-index: 87;
+  z-indexbak: 87;
   width: 216rpx;
   display: block;
   overflow-wrap: break-word;
@@ -392,14 +389,14 @@
 }
 
 .box8 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 550rpx;
   height: 28rpx;
   margin: 4rpx 0 0 44rpx;
 }
 
 .info6 {
-  z-index: 88;
+  z-indexbak: 88;
   width: 92rpx;
   display: block;
   overflow-wrap: break-word;
@@ -411,7 +408,7 @@
 }
 
 .word3 {
-  z-index: 89;
+  z-indexbak: 89;
   width: 92rpx;
   display: block;
   overflow-wrap: break-word;
@@ -423,7 +420,7 @@
 }
 
 .info7 {
-  z-index: 90;
+  z-indexbak: 90;
   width: 92rpx;
   display: block;
   overflow-wrap: break-word;
@@ -435,14 +432,14 @@
 }
 
 .box9 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 670rpx;
   height: 210rpx;
   margin: 30rpx 0 0 34rpx;
 }
 
 .bd5 {
-  z-index: 93;
+  z-indexbak: 93;
   height: 210rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng2b999d608ddf0e6953c53ea1c862b2a9899b8a56925d7f544e65e3e9b4a27811)
     100% no-repeat;
@@ -451,20 +448,20 @@
 }
 
 .bd6 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 186rpx;
   height: 28rpx;
 }
 
 .label7 {
-  z-index: 96;
+  z-indexbak: 96;
   width: 14rpx;
   height: 16rpx;
   margin-top: 6rpx;
 }
 
 .txt10 {
-  z-index: 100;
+  z-indexbak: 100;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -476,14 +473,14 @@
 }
 
 .label8 {
-  z-index: 101;
+  z-indexbak: 101;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
 }
 
 .word4 {
-  z-index: 108;
+  z-indexbak: 108;
   width: 36rpx;
   display: block;
   overflow-wrap: break-word;
@@ -495,7 +492,7 @@
 }
 
 .bd7 {
-  z-index: 110;
+  z-indexbak: 110;
   height: 210rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng48dd6b479e98b336f26d3a6f6655fd27d6173f29f46b3054b217e852b37392c7)
     100% no-repeat;
@@ -504,20 +501,20 @@
 }
 
 .layer2 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 186rpx;
   height: 28rpx;
 }
 
 .icon9 {
-  z-index: 113;
+  z-indexbak: 113;
   width: 14rpx;
   height: 16rpx;
   margin-top: 6rpx;
 }
 
 .word5 {
-  z-index: 117;
+  z-indexbak: 117;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -529,14 +526,14 @@
 }
 
 .icon10 {
-  z-index: 118;
+  z-indexbak: 118;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
 }
 
 .info8 {
-  z-index: 125;
+  z-indexbak: 125;
   width: 36rpx;
   display: block;
   overflow-wrap: break-word;
@@ -548,7 +545,7 @@
 }
 
 .bd8 {
-  z-index: 127;
+  z-indexbak: 127;
   height: 210rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga46644e2b842b53d4cd00e2dbd80444a1b6749a4a5ddec40cc07f1168940da97)
     100% no-repeat;
@@ -557,20 +554,20 @@
 }
 
 .section5 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 186rpx;
   height: 28rpx;
 }
 
 .icon11 {
-  z-index: 130;
+  z-indexbak: 130;
   width: 14rpx;
   height: 16rpx;
   margin-top: 6rpx;
 }
 
 .info9 {
-  z-index: 134;
+  z-indexbak: 134;
   width: 50rpx;
   display: block;
   overflow-wrap: break-word;
@@ -582,14 +579,14 @@
 }
 
 .icon12 {
-  z-index: 135;
+  z-indexbak: 135;
   width: 18rpx;
   height: 16rpx;
   margin: 6rpx 0 0 60rpx;
 }
 
 .info10 {
-  z-index: 142;
+  z-indexbak: 142;
   width: 36rpx;
   display: block;
   overflow-wrap: break-word;
@@ -602,7 +599,7 @@
 
 
 .word6 {
-  z-index: 143;
+  z-indexbak: 143;
   width: 120rpx;
   display: block;
   overflow-wrap: break-word;
@@ -613,7 +610,7 @@
 }
 
 .word7 {
-  z-index: 144;
+  z-indexbak: 144;
   width: 168rpx;
   display: block;
   overflow-wrap: break-word;
@@ -625,7 +622,7 @@
 }
 
 .word8 {
-  z-index: 146;
+  z-indexbak: 146;
   width: 92rpx;
   display: block;
   overflow-wrap: break-word;
@@ -637,7 +634,7 @@
 }
 
 .txt12 {
-  z-index: 147;
+  z-indexbak: 147;
   width: 92rpx;
   display: block;
   overflow-wrap: break-word;
@@ -718,7 +715,7 @@
 }
 
 .icon13 {
-  z-index: 214;
+  z-indexbak: 214;
   width: 14rpx;
   height: 24rpx;
   margin: 6rpx 0 0 6rpx;
@@ -735,7 +732,7 @@
 }
 
 .layer5 {
-  z-index: 204;
+  z-indexbak: 204;
   width: 120rpx;
   height: 34rpx;
   border-radius: 0 8.5px 8.5px 0;
@@ -743,7 +740,7 @@
 }
 
 .txt14 {
-  z-index: 206;
+  z-indexbak: 206;
   position: absolute;
   left: 2rpx;
   top: 18rpx;
@@ -758,7 +755,7 @@
 }
 
 .word12 {
-  z-index: 208;
+  z-indexbak: 208;
   width: 168rpx;
   display: block;
   overflow-wrap: break-word;
@@ -769,7 +766,7 @@
 }
 
 .info12 {
-  z-index: 209;
+  z-indexbak: 209;
   width: 168rpx;
   display: block;
   overflow-wrap: break-word;
@@ -780,14 +777,14 @@
 }
 
 .box16 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 476rpx;
   height: 28rpx;
   margin-left: 38rpx;
 }
 
 .txt15 {
-  z-index: 210;
+  z-indexbak: 210;
   width: 350rpx;
   display: block;
   overflow-wrap: break-word;
@@ -798,7 +795,7 @@
 }
 
 .word13 {
-  z-index: 211;
+  z-indexbak: 211;
   width: 350rpx;
   display: block;
   overflow-wrap: break-word;
@@ -809,12 +806,12 @@
 }
 
 .box17 {
-  z-index: auto;
+  z-indexbak: auto;
   margin: 30rpx 0 0 38rpx;
 }
 
 .word14 {
-  z-index: 165;
+  z-indexbak: 165;
   display: block;
   overflow-wrap: break-word;
   color: rgba(63, 63, 63, 1);
@@ -826,7 +823,7 @@
 }
 
 .word15 {
-  z-index: 194;
+  z-indexbak: 194;
   display: block;
   overflow-wrap: break-word;
   color: rgba(153, 153, 153, 1);
@@ -836,7 +833,7 @@
 }
 
 .label9 {
-  z-index: 195;
+  z-indexbak: 195;
   width: 14rpx;
   height: 24rpx;
   margin: 12rpx 0 0 6rpx;
@@ -860,20 +857,20 @@
 
 
 .layer6 {
-  z-index: auto;
+  z-indexbak: auto;
   padding: 25rpx;
   /* width: 272rpx; */
   /* height: 112rpx; */
 }
 
 .main1 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 266rpx;
   /* height: 36rpx; */
 }
 
 .word16 {
-  z-index: 172;
+  z-indexbak: 172;
   width: 182rpx;
   display: block;
   overflow-wrap: break-word;
@@ -884,7 +881,7 @@
 }
 
 .section6 {
-  z-index: 173;
+  z-indexbak: 173;
   width: 60rpx;
   height: 30rpx;
   border-radius: 4px;
@@ -893,7 +890,7 @@
 }
 
 .info13 {
-  z-index: 170;
+  z-indexbak: 170;
   /* width: 272rpx; */
   display: block;
   overflow-wrap: break-word;
@@ -905,7 +902,7 @@
 }
 
 .txt16 {
-  z-index: 169;
+  z-indexbak: 169;
   /* width: 110rpx; */
   display: block;
   overflow-wrap: break-word;
@@ -918,7 +915,7 @@
 }
 
 .word17 {
-  z-index: 174;
+  z-indexbak: 174;
   display: block;
   overflow-wrap: break-word;
   color: rgba(122, 159, 200, 1);
@@ -927,19 +924,19 @@
 }
 
 .block1 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 272rpx;
   height: 112rpx;
 }
 
 .group2 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 236rpx;
   height: 36rpx;
 }
 
 .txt17 {
-  z-index: 181;
+  z-indexbak: 181;
   width: 182rpx;
   display: block;
   overflow-wrap: break-word;
@@ -950,7 +947,7 @@
 }
 
 .outer3 {
-  z-index: 182;
+  z-indexbak: 182;
   width: 48rpx;
   height: 30rpx;
   border-radius: 4px;
@@ -958,7 +955,7 @@
 }
 
 .word18 {
-  z-index: 179;
+  z-indexbak: 179;
   width: 272rpx;
   display: block;
   overflow-wrap: break-word;
@@ -970,7 +967,7 @@
 }
 
 .word19 {
-  z-index: 178;
+  z-indexbak: 178;
   width: 110rpx;
   display: block;
   overflow-wrap: break-word;
@@ -983,7 +980,7 @@
 }
 
 .txt18 {
-  z-index: 183;
+  z-indexbak: 183;
   position: absolute;
   left: 354rpx;
   top: 42rpx;
@@ -999,19 +996,19 @@
 
 
 .section7 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 272rpx;
   height: 112rpx;
 }
 
 .box21 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 236rpx;
   height: 36rpx;
 }
 
 .word20 {
-  z-index: 190;
+  z-indexbak: 190;
   width: 182rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1022,7 +1019,7 @@
 }
 
 .layer7 {
-  z-index: 191;
+  z-indexbak: 191;
   width: 48rpx;
   height: 30rpx;
   border-radius: 4px;
@@ -1030,7 +1027,7 @@
 }
 
 .info14 {
-  z-index: 188;
+  z-indexbak: 188;
   width: 272rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1042,7 +1039,7 @@
 }
 
 .word21 {
-  z-index: 187;
+  z-indexbak: 187;
   width: 110rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1055,7 +1052,7 @@
 }
 
 .txt19 {
-  z-index: 192;
+  z-indexbak: 192;
   position: absolute;
   left: 354rpx;
   top: 42rpx;
@@ -1072,40 +1069,40 @@
 
 
 .box22 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 596rpx;
   height: 186rpx;
   margin: 18rpx 0 0 130rpx;
 }
 
 .pic3 {
-  z-index: 219;
+  z-indexbak: 219;
   width: 120rpx;
   height: 120rpx;
   margin-top: 36rpx;
 }
 
 .img1 {
-  z-index: 231;
+  z-indexbak: 231;
   width: 220rpx;
   height: 186rpx;
 }
 
 .img2 {
-  z-index: 245;
+  z-indexbak: 245;
   width: 220rpx;
   height: 186rpx;
 }
 
 .box23 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 644rpx;
   height: 72rpx;
   margin: 14rpx 0 0 30rpx;
 }
 
 .txt21 {
-  z-index: 259;
+  z-indexbak: 259;
   width: 192rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1116,7 +1113,7 @@
 }
 
 .word22 {
-  z-index: 261;
+  z-indexbak: 261;
   width: 202rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1127,7 +1124,7 @@
 }
 
 .txt22 {
-  z-index: 263;
+  z-indexbak: 263;
   width: 168rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1147,32 +1144,32 @@
 }
 
 .pic4 {
-  z-index: 224;
+  z-indexbak: 224;
   width: 220rpx;
   height: 186rpx;
 }
 
 .pic5 {
-  z-index: 238;
+  z-indexbak: 238;
   width: 220rpx;
   height: 186rpx;
 }
 
 .pic6 {
-  z-index: 252;
+  z-indexbak: 252;
   width: 220rpx;
   height: 186rpx;
 }
 
 .box25 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 644rpx;
   height: 72rpx;
   margin: 14rpx 0 0 28rpx;
 }
 
 .word23 {
-  z-index: 260;
+  z-indexbak: 260;
   width: 192rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1183,7 +1180,7 @@
 }
 
 .txt23 {
-  z-index: 262;
+  z-indexbak: 262;
   width: 202rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1194,7 +1191,7 @@
 }
 
 .word24 {
-  z-index: 264;
+  z-indexbak: 264;
   width: 168rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1205,7 +1202,7 @@
 }
 
 .box26 {
-  z-index: 266;
+  z-indexbak: 266;
   height: 68rpx;
   border-radius: 17px;
   background-color: rgba(249, 249, 249, 1);
@@ -1216,13 +1213,13 @@
 }
 
 .layer8 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 434rpx;
   height: 52rpx;
 }
 
 .section8 {
-  z-index: 274;
+  z-indexbak: 274;
   width: 24rpx;
   height: 24rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngdd9a32ea0bca7fd462fd0c40010408a18ce95133893832bfc26458e434a2087a) -2rpx -2rpx
@@ -1276,7 +1273,7 @@
 }
 
 .txt24 {
-  z-index: 280;
+  z-indexbak: 280;
   width: 138rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1289,7 +1286,7 @@
 }
 
 .info16 {
-  z-index: 309;
+  z-indexbak: 309;
   width: 96rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1301,14 +1298,14 @@
 }
 
 .label10 {
-  z-index: 310;
+  z-indexbak: 310;
   width: 14rpx;
   height: 24rpx;
   margin: 12rpx 0 0 6rpx;
 }
 
 .box28 {
-  z-index: auto;
+  z-indexbak: auto;
   margin: 30rpx 0 0 28rpx;
 }
 .my-box2{
@@ -1325,13 +1322,13 @@
 }
 
 .main3 {
-  z-index: auto;
+  z-indexbak: auto;
   margin-top: 20rpx;
   flex: 1;
 }
 
 .info17 {
-  z-index: 286;
+  z-indexbak: 286;
   display: block;
   overflow-wrap: break-word;
   color: rgba(63, 63, 63, 1);
@@ -1342,7 +1339,7 @@
 }
 
 .word26 {
-  z-index: 284;
+  z-indexbak: 284;
   display: block;
   word-wrap: break-word;
   word-break: normal;
@@ -1356,14 +1353,14 @@
 }
 
 .layer9 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 534rpx;
   height: 32rpx;
   margin: 38rpx 0 0 4rpx;
 }
 
 .word27 {
-  z-index: 287;
+  z-indexbak: 287;
   /* width: 94rpx; */
   display: block;
   overflow-wrap: break-word;
@@ -1399,7 +1396,7 @@
 }
 
 .info18 {
-  z-index: 295;
+  z-indexbak: 295;
   width: 182rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1411,7 +1408,7 @@
 }
 
 .word29 {
-  z-index: 293;
+  z-indexbak: 293;
   width: 514rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1424,14 +1421,14 @@
 }
 
 .group3 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 534rpx;
   height: 32rpx;
   margin: 38rpx 0 0 4rpx;
 }
 
 .word30 {
-  z-index: 296;
+  z-indexbak: 296;
   width: 94rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1492,7 +1489,7 @@
 }
 
 .info20 {
-  z-index: 302;
+  z-indexbak: 302;
   width: 514rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1505,14 +1502,14 @@
 }
 
 .outer4 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 534rpx;
   height: 32rpx;
   margin: 38rpx 0 0 4rpx;
 }
 
 .txt26 {
-  z-index: 305;
+  z-indexbak: 305;
   width: 94rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1523,7 +1520,7 @@
 }
 
 .info21 {
-  z-index: 306;
+  z-indexbak: 306;
   width: 66rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1534,7 +1531,7 @@
 }
 
 .box33 {
-  z-index: 307;
+  z-indexbak: 307;
   width: 702rpx;
   height: 2rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngacc08cfeead25bc0b60666a3d779a0be0b6ea8db98fa7f9cd99da5c45d843ecb)
@@ -1545,7 +1542,7 @@
 
 
 .outer6 {
-  z-index: 171;
+  z-indexbak: 171;
   width: 146rpx;
   height: 194rpx;
   border-radius: 8px 0 0 8px;
@@ -1554,7 +1551,7 @@
 }
 
 .outer7 {
-  z-index: 180;
+  z-indexbak: 180;
   position: absolute;
   left: 26rpx;
   top: 2602rpx;
@@ -1566,7 +1563,7 @@
 }
 
 .outer8 {
-  z-index: 189;
+  z-indexbak: 189;
   position: absolute;
   left: 26rpx;
   top: 2816rpx;
@@ -1578,7 +1575,7 @@
 }
 
 .outer9 {
-  z-index: 223;
+  z-indexbak: 223;
   position: absolute;
   left: 30rpx;
   top: 3122rpx;
@@ -1590,7 +1587,7 @@
 }
 
 .outer10 {
-  z-index: 315;
+  z-indexbak: 315;
   position: absolute;
   left: 0;
   top: 4548rpx;
@@ -1601,7 +1598,7 @@
 }
 
 .outer11 {
-  z-index: 393;
+  z-indexbak: 393;
   height: 104rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng132c722e21e6304e8a3c66871da57307040ca3b6145e863030edbe79ac5d813e)
     0rpx -2rpx no-repeat;
@@ -1613,13 +1610,13 @@
 }
 
 .section11 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 226rpx;
   height: 62rpx;
 }
 
 .mod2 {
-  z-index: 421;
+  z-indexbak: 421;
   height: 62rpx;
   border-radius: 50%;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng567081f3ab8f6d60e99fc02203f8e93313aea8f518dd3ae3f234bf214d24abcf)
@@ -1628,27 +1625,27 @@
 }
 
 .icon14 {
-  z-index: 422;
+  z-indexbak: 422;
   width: 62rpx;
   height: 62rpx;
 }
 
 .mod3 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 160rpx;
   height: 32rpx;
   margin-top: 18rpx;
 }
 
 .img4 {
-  z-index: 423;
+  z-indexbak: 423;
   width: 140rpx;
   height: 4rpx;
   align-self: flex-end;
 }
 
 .txt27 {
-  z-index: 424;
+  z-indexbak: 424;
   width: 140rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1660,7 +1657,7 @@
 }
 
 .label11 {
-  z-index: 425;
+  z-indexbak: 425;
   position: absolute;
   left: 6rpx;
   top: 32rpx;
@@ -1669,7 +1666,7 @@
 }
 
 .outer12 {
-  z-index: 312;
+  z-indexbak: 312;
   height: 148rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngdaf8eb7b19388d1de342567232202be32a548204c5c56b532604496dcd6e85f2)
     100% no-repeat;
@@ -1681,14 +1678,14 @@
 
 
 .outer14 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 562rpx;
   height: 34rpx;
   margin: 6rpx 0 0 98rpx;
 }
 
 .word31 {
-  z-index: 323;
+  z-indexbak: 323;
   width: 40rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1699,7 +1696,7 @@
 }
 
 .word32 {
-  z-index: 324;
+  z-indexbak: 324;
   width: 40rpx;
   display: block;
   overflow-wrap: break-word;
@@ -1711,14 +1708,14 @@
 }
 
 .outer15 {
-  z-index: auto;
+  z-indexbak: auto;
   width: 270rpx;
   height: 8rpx;
   margin: 26rpx 0 0 240rpx;
 }
 
 .outer16 {
-  z-index: 322;
+  z-indexbak: 322;
   width: 270rpx;
   height: 8rpx;
   border-radius: 2px;
@@ -1726,7 +1723,7 @@
 }
 
 .outer17 {
-  z-index: 318;
+  z-indexbak: 318;
   height: 36rpx;
   background: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5628bf4d9afb2a17e104ff33b16d6abbe581e14d061abea76bd0ce24dbb12e55) -2rpx -2rpx
     no-repeat;
@@ -1738,7 +1735,7 @@
 }
 
 .group6 {
-  z-index: 321;
+  z-indexbak: 321;
   width: 4rpx;
   height: 8rpx;
   border-radius: 1px;
@@ -1746,7 +1743,7 @@
 }
 
 .outer18 {
-  z-index: 327;
+  z-indexbak: 327;
   position: absolute;
   left: 620rpx;
   top: 20rpx;
