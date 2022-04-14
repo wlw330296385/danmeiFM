@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+  <metadata>Created by iconfont</metadata>
+  <defs>
+  <font id="iconfont" horiz-adv-x="1024">
+    <font-face
+      font-family="iconfont"
+      font-weight="400"
+      font-stretch="normal"
+      units-per-em="1024"
+      ascent="896"
+      descent="-128"
+    />
+      <missing-glyph />
+      
+      <glyph glyph-name="clock" unicode="&#59211;" d="M512 746.666667c200.298667 0 362.666667-162.368 362.666667-362.666667s-162.368-362.666667-362.666667-362.666667S149.333333 183.701333 149.333333 384 311.701333 746.666667 512 746.666667z m0-64c-164.949333 0-298.666667-133.717333-298.666667-298.666667s133.717333-298.666667 298.666667-298.666667 298.666667 133.717333 298.666667 298.666667-133.717333 298.666667-298.666667 298.666667z m32-78.485334v-201.130666h140.757333v-64H512a32 32 0 0 0-32 32V604.16h64z"  horiz-adv-x="1024" />
+      
+    </font>
+  </defs>
+</svg>

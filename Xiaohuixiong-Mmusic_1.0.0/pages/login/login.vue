@@ -45,7 +45,10 @@
 	export default {
 		data() {
 			return {
-				form: {},
+				form: {
+					username: 'ok0@qq.com',
+					password: '111111'
+				},
 				loading: false
 			};
 		},
@@ -53,6 +56,9 @@
 			allowLogin() {
 				return this.form.username && this.form.password &&  this.form.username.length > 3 && this.form.password.length >= 6
 			}
+		},
+		created() {
+			this.checkLogin();
 		},
 		methods: {
 			toRegister() {

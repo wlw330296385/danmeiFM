@@ -20,17 +20,10 @@ export default {
 		}
 	},
 	created() {
+		this.swipeaction = this.getSwipeAction()
 		if (this.swipeaction.children !== undefined) {
 			this.swipeaction.children.push(this)
 		}
-	},
-
-	beforeDestroy() {
-		this.swipeaction.children.forEach((item, index) => {
-			if (item === this) {
-				this.swipeaction.children.splice(index, 1)
-			}
-		})
 	},
 	mounted() {
 		this.isopen = false
@@ -61,13 +54,6 @@ export default {
 				})
 			}
 		},
-		// onClick(index, item, position) {
-		// 	this.$emit('click', {
-		// 		content: item,
-		// 		index,
-		// 		position
-		// 	})
-		// },
 		/**
 		 * 移动触发
 		 * @param {Object} e

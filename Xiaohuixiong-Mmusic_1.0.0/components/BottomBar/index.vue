@@ -1,35 +1,51 @@
 <template name="BottomBar">
-	<view class="fixed bottom" style="z-index: 999;">
-		<view class="bottom-left">
-			<image :src="currTrack.cover ? currTrack.cover : '../../static/images/home.png'" class="round" mode="aspectFill" @tap="goPlay"></image>
-			<view class="aideo-info" @tap="goPlay">
-				<view class="audio-name">
-					{{currTrack.name}}
+	<view class="BottomBar">
+		<view class="uni-flex uni-row justify-between">
+			<view class="flex-item left">
+				<view class="">
+					<view class="">
+						<image src="../../static/images/home.png" mode="aspectFit" style="width: 50rpx;height: 50rpx;" >
+							
+						</image>
+					</view>
+					
+					<text class="">推荐</text>
 				</view>
-				<view class="audio-singer">
-					{{currTrack.author ? currTrack.author : (currTrack.description ? currTrack.description : '作者·未知~')}}
+			</view>
+			<view class="flex-item center" >
+				<view class="uni-flex uni-row">
+					<view class="flex-item changpian" style="">
+						<image src="../../static/icon/changpian.png" mode="aspectFit" :class="{'xuanzhuan': isPlaying}"
+						 style="width: 60rpx;height: 60rpx;" >
+						</image>
+					</view>
+					<view class="flex-item txt" @tap="goPlay()">
+						<text>{{currTrack.name}}
+						<!-- {{currTrack.author ? currTrack.author : (currTrack.description ? currTrack.description : '作者·未知~')}} -->
+						</text>
+					</view>
+					<view class="flex-item play-icon"  @tap="isPlaying ? doStop() : doPlay()"  >
+						<image :src=" isPlaying ? play_icon_active : play_icon" mode="aspectFit"
+						 style="width: 30rpx;height: 30rpx;" >
+						</image>
+					</view>
 				</view>
 			</view>
+			<view class="flex-item right">
+				<view class="" >
+						<image src="../../static/icon/mine.png" mode="aspectFit"  
+						style="width: 50rpx; height: 50rpx; "
+						 >
+							
+						</image></view>
+				<text class="">我的</text>
+			</view>
+			
+			
+			<bottem-play-list ref="playlistModal"></bottem-play-list>
 		</view>
-		<view class="bottom-right">
-			<view @tap="plaryPrevious" class="margin-right">
-				<text v-if="hasPrevious" class="text-black cuIcon-backwardfill"></text>
-				<text v-else class="text-gray cuIcon-backwardfill"></text>
-			</view>
-			<view class="btn-player margin-right">
-				<text v-if="!isPlaying" :class="playList.length ? 'text-black' : 'text-gray'" class=" cuIcon-playfill" @tap="doPlay"></text>
-				<text v-else class="text-black cuIcon-stop" @tap="doStop"></text>
-			</view>
-			<view @tap="playNext" class="margin-right">
-				<text v-if="hasNext" class="text-black cuIcon-play_forward_fill"></text>
-				<text v-else class="text-gray cuIcon-play_forward_fill"></text>
-			</view>
-			<view @tap.stop="showPlaylist" class="btn-info">
-				<text class="text-black cuIcon-list"></text>
-			</view>
-		</view>
-		<bottem-play-list ref="playlistModal"></bottem-play-list>
 	</view>
+	
 </template>
 
 <script>
@@ -43,7 +59,8 @@
 		props: {},
 		data() {
 			return {
-
+				play_icon: '../../static/icon/sanjiaoxing.png',
+				play_icon_active: '../../static/icon/pause.png',
 			}
 		},
 		computed: {
@@ -75,9 +92,11 @@
 				this.$store.dispatch('plaryPrevious');
 			},
 			doStop() {
+				console.log('doStop');
 				this.$store.dispatch('doStop');
 			},
 			doPlay() {
+				console.log('doPlay');
 				this.$store.dispatch('doPlay');
 			},
 			goPlay() {
@@ -101,6 +120,56 @@
 	}
 </script>
 
-<style>
-	@import url("./index.css");
+<style lang="scss" scoped>
+	
+@import '@/pages/index/common.css';
+@import '@/pages/index/index.rpx.css';
+
+.BottomBar{
+	z-index:100;
+	height: 120rpx;
+	position: fixed;
+	bottom: 0;
+	width: 750rpx;
+	background-color: #FFFFFF;
+	padding-top: 20rpx;
+	.left, .right{
+		flex: 3;
+		text-align: center;
+	}
+	.center{
+		margin-top: 10rpx;
+		height: 80rpx;
+		flex:8;
+		background-color: #626AFF;
+		border-radius: 60rpx;
+		.changpian{
+			padding: 10rpx 0 0 10rpx; flex: 1;
+		};
+		.txt{
+			width: 300rpx;
+		   flex: 4; 
+		   text-align: left;
+		   padding: 25rpx 5rpx 0 10rpx;
+		    overflow: hidden; /*隐藏*/
+			white-space: nowrap;  /*不换行*/
+			text-overflow: ellipsis;  /* 超出部分省略号 */	
+		   color: #FFFDEF;
+		};
+		.play-icon{
+			padding: 25rpx 50rpx 0 0;
+		}			
+		.xuanzhuan{
+			animation:rotate 3s linear infinite;
+		}
+		
+		@keyframes rotate{
+			to{
+				transform: rotate(360deg);
+			}
+		}
+	}
+	
+};
+
 </style>
