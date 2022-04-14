@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="47px" viewBox="0 0 48 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>打赏</title>
+    <defs>
+        <filter x="-66.7%" y="-79.8%" width="233.3%" height="259.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.154884178 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-备份" transform="translate(-242.000000, -9.000000)" stroke="#CCCDD0" stroke-width="1.5">
+            <g id="打赏" filter="url(#filter-1)" transform="translate(254.000000, 22.000000)">
+                <path d="M21,17.7661922 L21,18.3263338 C21,19.8029589 19.8029589,21 18.3263338,21 L5.67366616,21 C4.19704111,21 3,19.8029589 3,18.3263338 L3,8 L21,8 L21,14.2178523" id="路径" stroke-linecap="round"></path>
+                <rect id="矩形" x="0.75" y="2.75" width="22.5" height="5.29556816" rx="2.64778408"></rect>
+                <polyline id="路径-30" stroke-linecap="round" stroke-linejoin="round" points="8.09516361 0 12.5 3.04878013 16.7399085 0"></polyline>
+                <polyline id="直线-5" stroke-linecap="round" points="12.5 2 12.5 2.90807622 12.5 7.68154059"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

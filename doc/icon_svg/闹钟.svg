@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="23px" viewBox="0 0 21 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>闹钟</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-备份" transform="translate(-186.000000, -262.000000)">
+            <g id="闹钟" transform="translate(187.000000, 263.000000)">
+                <g id="编组-34">
+                    <line x1="15.2373047" y1="18.9370117" x2="17.0351562" y2="20.8740234" id="路径-33备份-2" stroke="#272727" stroke-width="1.5" stroke-linecap="round"></line>
+                    <line x1="2.23730469" y1="18.9370117" x2="4.13623047" y2="20.8740234" id="路径-33备份-3" stroke="#272727" stroke-width="1.5" stroke-linecap="round" transform="translate(3.186768, 19.905518) scale(-1, 1) translate(-3.186768, -19.905518) "></line>
+                    <circle id="椭圆形备份-17" fill="#EEF0FF" cx="11" cy="12.3554688" r="8"></circle>
+                    <circle id="椭圆形" stroke="#272727" stroke-width="1.5" cx="10" cy="11.3554688" r="9.25"></circle>
+                    <line x1="15.2373047" y1="0" x2="19.0351562" y2="3.87402344" id="路径-33" stroke="#272727" stroke-width="1.5" stroke-linecap="round"></line>
+                    <line x1="0.237304688" y1="0" x2="4.03515625" y2="3.87402344" id="路径-33备份" stroke="#272727" stroke-width="1.5" stroke-linecap="round" transform="translate(2.136230, 1.937012) scale(-1, 1) translate(-2.136230, -1.937012) "></line>
+                </g>
+                <circle id="椭圆形" fill="#585BEE" cx="10" cy="12" r="1"></circle>
+                <rect id="矩形" fill="#585BEE" x="9" y="8" width="1.5" height="5" rx="0.75"></rect>
+                <rect id="矩形备份-14" fill="#585BEE" transform="translate(11.750000, 11.500000) rotate(-285.000000) translate(-11.750000, -11.500000) " x="11" y="9" width="1.5" height="5" rx="0.75"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

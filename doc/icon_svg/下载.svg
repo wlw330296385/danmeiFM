@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>下载</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="icon-备份" transform="translate(-294.000000, -24.000000)" stroke="#CCCDD0" stroke-width="1.5">
+            <g id="下载" transform="translate(295.000000, 25.000000)">
+                <path d="M19.8708633,11.6113077 C19.9558337,11.0867621 20,10.5485389 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 C0,15.5228475 4.4771525,20 10,20 C12.1079255,20 14.0635196,19.3477917 15.6759925,18.234165" id="路径"></path>
+                <g id="编组-5" transform="translate(7.000000, 5.000000)">
+                    <line x1="3.17993164" y1="0.5" x2="3.29125977" y2="9.5" id="直线-6"></line>
+                    <polyline id="路径-31" stroke-linejoin="round" points="0 6.66674805 3.29125977 9.96146189 6.75073242 6.66674805"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

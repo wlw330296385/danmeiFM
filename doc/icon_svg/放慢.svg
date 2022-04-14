@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="20px" viewBox="0 0 23 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>放慢</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-备份" transform="translate(-45.000000, -186.000000)">
+            <g id="放慢" transform="translate(45.000000, 187.000000)">
+                <text id="15" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#E8E9EA">
+                    <tspan x="7" y="13">15</tspan>
+                </text>
+                <text id="-" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#E8E9EA">
+                    <tspan x="0" y="13">-</tspan>
+                </text>
+                <g id="编组-2" transform="translate(13.133284, 9.000000) scale(-1, 1) translate(-13.133284, -9.000000) translate(4.000000, 0.000000)" stroke="#CCCDD0" stroke-linecap="round">
+                    <path d="M17.5822069,6.2816946 C16.4297327,2.63975498 13.0231402,0 9,0 C4.02943725,0 0,4.02943725 0,9 C0,13.9705627 4.02943725,18 9,18 C11.8530868,18 14.3960988,16.6724122 16.044987,14.6012859" id="路径"></path>
+                    <line x1="17.9509277" y1="2.74243164" x2="17.5822069" y2="6.2816946" id="路径-25"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
